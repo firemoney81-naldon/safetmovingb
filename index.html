@@ -1,23 +1,1262 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+
+
+    <!-- JSON-LD 구조화 데이터 (LLM 및 네이버 AI 검색엔진 최적화) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://asan-oneroom-moving.guide.kr/#webpage",
+          "url": "https://asan-oneroom-moving.guide.kr",
+          "name": "아산원룸이사 비용 요금표 및 트림별 견적 비교 분석 가이드",
+          "description": "2027년 기준 아산시 전 지역 원룸, 오피스텔, 빌라, 소형 주택 맞춤형 이사 견적 시뮬레이터 및 표준 비용 비교 지침서입니다.",
+          "inLanguage": "ko-KR",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "홈",
+                "item": "https://asan-oneroom-moving.guide.kr"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "아산원룸이사",
+                "item": "https://asan-oneroom-moving.guide.kr"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://asan-oneroom-moving.guide.kr/#localbusiness",
+          "name": "아산원룸이사 통합 견적 분석 센터",
+          "serviceType": "소형화물 운송 및 원룸 이사 컨설팅",
+          "areaServed": [
+            {
+              "@type": "AdministrativeArea",
+              "name": "충청남도 아산시"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "배방읍"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "탕정면"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "온천동"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "용화동"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "모종동"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "신창면"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "둔포면"
+            }
+          ],
+          "priceRange": "KRW 60,000 - 450,000"
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://asan-oneroom-moving.guide.kr/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "아산원룸이사 비용은 평균적으로 얼마 정도 예상해야 하나요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "2027년 기준 아산시 관내 1톤 용달 차량 기준순수 운송 요금은 5만 원에서 7만 원 선이며, 일반이사는 12만 원에서 18만 원, 포장과 정리가 결합된 반포장이사는 18만 원에서 26만 원, 풀 패키지 포장이사는 30만 원에서 42만 원 선의 평균 금액으로 형성되어 있습니다. 짐의 양, 엘리베이터 여부, 층수에 따라 최종 견적에 차이가 발생합니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "아산 지역에서 원룸이사 시 일반이사와 반포장이사의 가장 큰 차이점은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "일반이사는 고객이 이사 전 직접 박스를 구해 포장해 두면 기사님이 차량 적재와 운반만을 대행하는 방식이며, 반포장이사는 이사 당일 기사님이 전문 바구니와 에어캡을 지참하여 가전, 가구, 잔짐을 함께 포장해 운반해 드린 뒤 도착지에서는 큰 짐 배치 위주로 돕고 잔짐 정리는 고객이 직접 진행하는 방식입니다. 시간과 체력을 고려할 때 반포장이사가 1인 가구에서 가장 추천되는 요금제입니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "배방읍이나 탕정면 오피스텔 이사 시 사다리차는 필수인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "배방읍과 탕정면 신축 오피스텔 및 고층 주택의 경우 대다수 화물용 엘리베이터 승인 절차가 체계화되어 있어 사다리차 없이 전용 승강기 예약으로 진행되는 경우가 많습니다. 단, 관리사무소에 사전 예약 및 소정의 엘리베이터 사용료(보통 3만 원에서 10만 원) 납부가 필요하므로 사다리차 비용과 비교 분석 후 경제적인 경로를 선택하는 것이 바람직합니다."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #0F2A4A; /* 신뢰감 있는 딥 네이비 */
+            --secondary-color: #0284C7; /* 산뜻하고 선명한 스카이 블루 */
+            --brand-teal: #0D9488; /* 차분하고 세련된 틸 민트 */
+            --accent-warm: #E11D48; /* 시인성 높은 포인트 로즈레드 */
+            --accent-soft: #EA580C; /* 부드러운 오렌지 앰버 */
+            --text-main: #1E293B; /* 또렷한 슬레이트 차콜 본문 */
+            --text-sub: #475569; /* 부드러운 보조 텍스트 */
+            --bg-page: #F8FAFC; /* 깔끔하고 편안한 미색 배경 */
+            --bg-card: #FFFFFF; /* 깨끗한 순백 카드 배경 */
+            --border-soft: #E2E8F0; /* 세련된 연한 테두리 */
+            --border-strong: #CBD5E1; /* 정돈된 강조 테두리 */
+            --highlight-box: #F0FDF4; /* 부드러운 민트빛 강조 배경 */
+            --highlight-sub: #EFF6FF; /* 청량한 블루빛 정보 박스 */
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.95;
+            font-size: 16.5px;
+            letter-spacing: -0.025em;
+            word-break: keep-all;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* 헤더 영역 */
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #1E3A8A 100%);
+            border-bottom: 3px solid var(--secondary-color);
+            padding: 40px 0 35px 0;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        header .header-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: #BAE6FD;
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 14px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.1em;
+            color: #FFFFFF;
+            font-weight: 800;
+            letter-spacing: -0.035em;
+            line-height: 1.35;
+        }
+
+        header p {
+            margin: 14px auto 0 auto;
+            font-size: 1.1em;
+            color: #E2E8F0;
+            font-weight: 500;
+            max-width: 820px;
+        }
+
+        /* 상단 히어로 인트로 */
+        .hero {
+            background-color: #FFFFFF;
+            border-bottom: 1px solid var(--border-soft);
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 1.9em;
+            color: var(--primary-color);
+            margin: 0 0 16px 0;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        .hero p {
+            font-size: 1.08em;
+            color: var(--text-sub);
+            max-width: 860px;
+            margin: 0 auto;
+            line-height: 1.85;
+        }
+
+        /* 인터랙티브 계산기 카드 */
+        .calculator-wrapper {
+            background-color: var(--bg-card);
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(15, 42, 74, 0.08);
+            padding: 45px;
+            margin: 40px auto;
+            border: 1px solid var(--border-soft);
+        }
+
+        .calc-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .calc-header h3 {
+            color: var(--primary-color);
+            font-size: 1.65em;
+            font-weight: 800;
+            margin: 0 0 10px 0;
+            letter-spacing: -0.03em;
+        }
+
+        .calc-header p {
+            color: var(--text-sub);
+            font-size: 0.98em;
+            margin: 0;
+        }
+
+        .calc-step-title {
+            font-size: 1.15em;
+            color: var(--secondary-color);
+            font-weight: 700;
+            margin: 28px 0 14px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #E0F2FE;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-size: 0.92em;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .form-group select, .form-group input {
+            padding: 13px 15px;
+            border: 1px solid var(--border-strong);
+            border-radius: 10px;
+            font-size: 0.96em;
+            color: var(--text-main);
+            background-color: #FFFFFF;
+            transition: all 0.25s ease;
+        }
+
+        .form-group select:focus, .form-group input:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.18);
+        }
+
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .checkbox-card {
+            background-color: var(--bg-page);
+            border: 1px solid var(--border-soft);
+            padding: 12px 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            font-size: 0.92em;
+            font-weight: 600;
+            color: var(--text-main);
+            cursor: pointer;
+        }
+
+        .checkbox-card input {
+            margin-right: 12px;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--secondary-color);
+            cursor: pointer;
+        }
+
+        .calc-submit-btn {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #0369A1 100%);
+            color: #FFFFFF;
+            font-size: 1.22em;
+            font-weight: 700;
+            padding: 18px 28px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 35px;
+            transition: all 0.25s ease;
+            box-shadow: 0 6px 18px rgba(2, 132, 199, 0.25);
+        }
+
+        .calc-submit-btn:hover {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #0C4A6E 100%);
+            box-shadow: 0 6px 20px rgba(15, 42, 74, 0.3);
+        }
+
+        /* 결과 패널 */
+        .results-box {
+            margin-top: 35px;
+            padding: 30px;
+            background-color: #F0F9FF;
+            border: 2px solid #BAE6FD;
+            border-radius: 14px;
+            display: none;
+        }
+
+        .results-box h4 {
+            margin: 0 0 16px 0;
+            color: var(--primary-color);
+            font-size: 1.35em;
+            font-weight: 800;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+        }
+
+        .calc-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .calc-table td {
+            padding: 13px;
+            border-bottom: 1px solid #E0F2FE;
+            font-size: 0.98em;
+        }
+
+        .calc-table td.title {
+            font-weight: 700;
+            color: var(--primary-color);
+            width: 45%;
+        }
+
+        .calc-table td.data {
+            text-align: right;
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+        .calc-table td.highlight-data {
+            color: var(--accent-warm);
+            font-size: 1.3em;
+            font-weight: 800;
+        }
+
+        /* 본문 콘텐츠 스타일 */
+        .main-article {
+            padding: 30px 0 60px 0;
+        }
+
+        .content-section {
+            margin-bottom: 60px;
+        }
+
+        .content-section h2 {
+            font-size: 1.85em;
+            color: var(--primary-color);
+            border-left: 6px solid var(--secondary-color);
+            padding-left: 18px;
+            margin: 0 0 25px 0;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        .content-section h3 {
+            font-size: 1.35em;
+            color: #0369A1;
+            margin: 36px 0 16px 0;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .content-section p {
+            margin-bottom: 22px;
+            color: #334155;
+            line-height: 1.95;
+            text-align: justify;
+        }
+
+        .highlight-notice {
+            background-color: var(--highlight-sub);
+            border-left: 5px solid var(--secondary-color);
+            padding: 24px 26px;
+            border-radius: 0 12px 12px 0;
+            margin: 30px 0;
+        }
+
+        .highlight-notice p {
+            margin: 0;
+            font-weight: 600;
+            color: #0C4A6E;
+            line-height: 1.85;
+        }
+
+        /* 데이터 테이블 */
+        .table-wrap {
+            overflow-x: auto;
+            margin: 30px 0;
+            border-radius: 12px;
+            border: 1px solid var(--border-soft);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+            background-color: #FFFFFF;
+        }
+
+        table.info-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95em;
+        }
+
+        table.info-table th {
+            background-color: var(--primary-color);
+            color: #FFFFFF;
+            padding: 16px 18px;
+            font-weight: 700;
+            border-bottom: 2px solid var(--secondary-color);
+            white-space: nowrap;
+        }
+
+        table.info-table td {
+            padding: 16px 18px;
+            border-bottom: 1px solid var(--border-soft);
+            color: var(--text-main);
+        }
+
+        table.info-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        table.info-table tr:hover td {
+            background-color: #F1F5F9;
+        }
+
+        /* 맞춤형 CSS 바 차트 컴포넌트 */
+        .bar-chart-card {
+            background-color: #FFFFFF;
+            border: 1px solid var(--border-soft);
+            border-radius: 16px;
+            padding: 35px;
+            margin: 35px 0;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+        }
+
+        .bar-chart-title {
+            font-size: 1.18em;
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 26px;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+
+        .bar-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .bar-label {
+            width: 220px;
+            font-size: 0.94em;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .bar-track {
+            flex-grow: 1;
+            background-color: #F1F5F9;
+            border-radius: 10px;
+            height: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.8s ease;
+        }
+
+        .bar-fill.c1 { background-color: var(--brand-teal); }
+        .bar-fill.c2 { background-color: var(--secondary-color); }
+        .bar-fill.c3 { background-color: #4F46E5; }
+        .bar-fill.c4 { background-color: var(--accent-warm); }
+
+        .bar-text {
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.88em;
+            font-weight: 800;
+            color: var(--primary-color);
+        }
+
+        /* FAQ 아코디언 */
+        .faq-block {
+            margin-top: 40px;
+        }
+
+        .faq-box {
+            background-color: #FFFFFF;
+            border: 1px solid var(--border-soft);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            transition: border-color 0.25s ease;
+        }
+
+        .faq-box:hover {
+            border-color: var(--secondary-color);
+        }
+
+        .faq-q {
+            padding: 22px 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+            cursor: pointer;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            font-size: 1.05em;
+        }
+
+        .faq-q:hover {
+            background-color: #F8FAFC;
+        }
+
+        .faq-toggle-tag {
+            font-size: 0.82em;
+            padding: 4px 12px;
+            border-radius: 20px;
+            background-color: #E2E8F0;
+            color: var(--text-sub);
+            font-weight: 600;
+        }
+
+        .faq-a {
+            padding: 22px 24px;
+            border-top: 1px solid var(--border-soft);
+            background-color: #F8FAFC;
+            display: none;
+            color: #334155;
+            font-size: 0.98em;
+            line-height: 1.9;
+        }
+
+        /* 공인 외부 레퍼런스 섹션 */
+        .official-links {
+            background-color: #FFFFFF;
+            border: 1px solid var(--border-soft);
+            border-radius: 14px;
+            padding: 30px;
+            margin: 50px 0 30px 0;
+        }
+
+        .official-title {
+            font-size: 1.2em;
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 18px;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 8px;
+        }
+
+        .official-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .official-list li {
+            padding: 10px 0;
+            border-bottom: 1px dashed var(--border-soft);
+            font-size: 0.96em;
+        }
+
+        .official-list li:last-child {
+            border-bottom: none;
+        }
+
+        .official-list a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.2s ease;
+        }
+
+        .official-list a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        /* 푸터 */
+        footer {
+            background-color: var(--primary-color);
+            color: #94A3B8;
+            padding: 45px 0;
+            text-align: center;
+            font-size: 0.92em;
+            border-top: 4px solid var(--secondary-color);
+        }
+
+        footer p {
+            margin: 8px 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+            .hero h2 {
+                font-size: 1.45em;
+            }
+            .calculator-wrapper {
+                padding: 24px;
+            }
+            .bar-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .bar-label {
+                width: 100%;
+                margin-bottom: 8px;
+            }
+            .bar-track {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <span class="header-badge">2027년 최신판 실시간 지침서</span>
+            <h1>아산원룸이사 비용 요금표 및 트림별 견적 비교 가이드</h1>
+            <p>아산시 전 지역 배방읍, 탕정면, 온천동, 용화동, 모종동, 신창면, 둔포면 원룸 투룸 오피스텔 이사짐센터 다이렉트 견적 산출 총정리</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>충청남도 아산 권역 1인 가구 및 소형 주택 맞춤 이사 로드맵</h2>
+            <p>
+                단순 1톤 용달 운송부터 일반이사, 반포장, 포장이사까지 작업 방식별 실질 지출 경비와 층수별 사다리차 요금, 인터넷 위약금 방지 및 사은품 지원금 혜택까지 모든 필수 정보를 가감 없이 분석합니다.
+            </p>
+        </div>
+    </section>
+
+    <main class="container">
+        
+        <!-- 실시간 견적 가산출 시뮬레이터 카드 -->
+        <div class="calculator-wrapper">
+            <div class="calc-header">
+                <h3>아산원룸이사 실시간 예상 견적 계산기</h3>
+                <p>출발지 및 도착지 동네와 평형대, 원하는 작업 등급을 선택하시면 2027년 표준 공시 요율 기반 예상 최저가 비용이 자동 계산됩니다.</p>
+            </div>
+
+            <form id="asanMoveCalcForm" onsubmit="return handleMovingCalculation(event)">
+                
+                <div class="calc-step-title">1단계 출발 권역 및 주거 형태 선택</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="startArea">아산 관내 출발 지역</label>
+                        <select id="startArea" required>
+                            <option value="">출발 읍면동을 선택하세요</option>
+                            <option value="배방읍">배방읍 (장재리, 공수리, 북수리 등)</option>
+                            <option value="탕정면">탕정면 (매곡리, 명암리 신도시권)</option>
+                            <option value="온천동">온천동 (온양온천역 및 상권 중심가)</option>
+                            <option value="용화동">용화동 (신도브래뉴 및 원룸 밀집 구역)</option>
+                            <option value="모종동">모종동 (시외버스터미널 및 한성필하우스)</option>
+                            <option value="신창면">신창면 (순천향대 인근 대학가 원룸촌)</option>
+                            <option value="둔포면">둔포면 (아산테크노밸리 산업단지권)</option>
+                            <option value="음봉면">음봉면 (스마트밸리 및 삼거리 일원)</option>
+                            <option value="기타아산">기타 아산시 읍면 지역</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="housingType">주거 공간 건물 형태</label>
+                        <select id="housingType" required>
+                            <option value="">건물 종류를 선택해 주세요</option>
+                            <option value="원룸">원룸 (5평 이하 미니형)</option>
+                            <option value="일반원룸">원룸 (6평에서 9평 표준형)</option>
+                            <option value="분리형원룸">분리형 원룸 및 1.5룸 (10평에서 13평)</option>
+                            <option value="투룸">투룸 및 다세대 빌라 (14평에서 18평)</option>
+                            <option value="오피스텔">고층 엘리베이터 오피스텔</option>
+                            <option value="소형단독">단독 주택 및 다가구 주택</option>
+                            <option value="소형사무실">소형 사무실 및 상가 점포</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="moveType">이사 작업 등급 (트림 선택)</label>
+                        <select id="moveType" required>
+                            <option value="">진행 방식을 선택해 주세요</option>
+                            <option value="용달단순">1톤 용달 단순 차량 운송 (상하차 본인)</option>
+                            <option value="일반이사">일반이사 (포장 직접, 기사님과 함께 운반)</option>
+                            <option value="반포장이사">반포장이사 (기사님 포장 동행, 도착지 큰짐 배치)</option>
+                            <option value="포장이사">포장이사 (전문 패커 포장 및 주방 청소 정리)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="calc-step-title">2단계 층수 및 진입 환경 조건 세부 설정</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="startFloor">출발지 층수 환경</label>
+                        <select id="startFloor" required>
+                            <option value="1">1층 또는 엘리베이터 완비</option>
+                            <option value="2">2층 계단 작업</option>
+                            <option value="3">3층 계단 작업</option>
+                            <option value="4">4층 이상 계단 작업</option>
+                            <option value="ladder">사다리차 이용 필수 현장</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="destFloor">도착지 층수 환경</label>
+                        <select id="destFloor" required>
+                            <option value="1">1층 또는 엘리베이터 완비</option>
+                            <option value="2">2층 계단 작업</option>
+                            <option value="3">3층 계단 작업</option>
+                            <option value="4">4층 이상 계단 작업</option>
+                            <option value="ladder">사다리차 이용 필수 현장</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="moveDateOption">이사 예정 일정 구분</label>
+                        <select id="moveDateOption" required>
+                            <option value="normal">평일 일반 일정 (가장 저렴한 요금)</option>
+                            <option value="weekend">주말 및 공휴일 (금요일, 토요일, 일요일)</option>
+                            <option value="luckyDay">손 없는 날 (예약 집중 최고 성수기)</option>
+                            <option value="monthEnd">월말 평일 (25일부터 말일 사이)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="calc-step-title">3단계 특수 가전 가구 및 추가 옵션 선택</div>
+                <div class="checkbox-grid">
+                    <label class="checkbox-card">
+                        <input type="checkbox" id="optWasher" value="washer">
+                        드럼 세탁기 탈부착 및 수평 세팅
+                    </label>
+                    <label class="checkbox-card">
+                        <input type="checkbox" id="optBed" value="bed">
+                        퀸 또는 킹사이즈 침대 프레임 분해 조립
+                    </label>
+                    <label class="checkbox-card">
+                        <input type="checkbox" id="optCloset" value="closet">
+                        대형 조립식 옷장 또는 시스템 행거 해체
+                    </label>
+                    <label class="checkbox-card">
+                        <input type="checkbox" id="optDoubleWorker" value="worker">
+                        인부 1인 추가 투입 (기사님 외 전문 헬퍼)
+                    </label>
+                </div>
+
+                <div class="calc-step-title">4단계 예상 견적 산출 명의 확인</div>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="customerName">신청 고객 성명</label>
+                        <input type="text" id="customerName" placeholder="예: 홍길동" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerContact">안내 확인용 휴대전화 번호</label>
+                        <input type="tel" id="customerContact" placeholder="010-0000-0000" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="calc-submit-btn">아산원룸이사 실시간 분석 견적서 즉시 산출</button>
+            </form>
+
+            <div id="calcResults" class="results-box">
+                <h4>아산원룸이사 정밀 모의 분석 견적서</h4>
+                <p style="font-size: 0.95em; color: var(--text-sub); margin-bottom: 20px;">
+                    입력하신 <strong id="outName" style="color: var(--primary-color);">고객</strong>님의 선택 조건과 2027년 아산시 물류 운송 지침 요율표를 결합한 산출 결과입니다.
+                </p>
+
+                <table class="calc-table">
+                    <tr>
+                        <td class="title">선택 이사 방식 트림</td>
+                        <td class="data" id="outMoveType">-</td>
+                    </tr>
+                    <tr>
+                        <td class="title">기본 기준 운임 요금</td>
+                        <td class="data" id="outBaseCost">0원</td>
+                    </tr>
+                    <tr>
+                        <td class="title">작업 환경 가산금 (층수 및 일정)</td>
+                        <td class="data" id="outEnvCost">0원</td>
+                    </tr>
+                    <tr>
+                        <td class="title">선택 부가 옵션 설치비 합계</td>
+                        <td class="data" id="outOptCost">0원</td>
+                    </tr>
+                    <tr>
+                        <td class="title">아산 관내 예상 종합 비용</td>
+                        <td class="data highlight-data" id="outTotalCost">0원</td>
+                    </tr>
+                </table>
+
+                <div style="margin-top: 20px; font-size: 0.88em; color: var(--text-sub); line-height: 1.8;">
+                    안내된 금액은 평균적인 적재량과 작업 시간을 감안한 예상 견적입니다. 실제 가구의 무게, 골목길 협소에 따른 차량 진입 여부, 버리는 폐기물 스티커 처리 대행 유무에 따라 소폭의 금액 차이가 생길 수 있으므로 다이렉트 전문 센터를 통해 세부 사진 전송 및 최종 조율을 진행하시길 권장합니다.
+                </div>
+            </div>
+        </div>
+
+        <!-- 심층 콘텐츠 섹션 시작 -->
+        <article class="main-article">
+            
+            <section class="content-section">
+                <h2>1. 아산원룸이사 시장의 주거 특성과 최신 트렌드</h2>
+                <p>
+                    충청남도 아산시는 수도권 전철 1호선 연장선과 KTX 및 SRT 천안아산역을 필두로 급격한 도시 팽창을 이루고 있는 거점 도시입니다. 특히 삼성디스플레이 아산캠퍼스가 자리 잡은 탕정면과 배방읍, 그리고 순천향대학교가 위치한 신창면, 선문대학교 인근의 탕정 갈산리 권역, 호서대학교 인근 배방 세교리 일대 등은 20대와 30대 청년층 및 1인 직장인 가구가 가장 밀집한 대표적인 원룸 이사 격전지입니다.
+                </p>
+                <p>
+                    여기에 온천동과 용화동, 모종동으로 이어지는 아산 구도심 상권은 다가구 주택, 다세대 빌라, 5평에서 9평 사이의 다채로운 평형대 원룸이 촘촘하게 포진되어 있어 해마다 수많은 이사 수요가 발생합니다. 아울러 둔포면에 구축된 아산테크노밸리 일반산업단지 및 음봉면의 첨단 스마트밸리 일원 역시 교대 근무자와 협력사 엔지니어들의 잦은 주거 이전으로 인해 소형 용달 및 원룸이사짐센터를 찾는 문의가 꾸준히 이어지고 있습니다.
+                </p>
+                <div class="highlight-notice">
+                    <p>
+                        아산 지역의 원룸 주거 형태는 엘리베이터가 갖추어진 신축 브랜드 오피스텔부터 계단 전용 구축 다세대 주택까지 천차만별입니다. 주거지의 형태와 주차장 진입로 환경에 따라 작업 소요 시간과 인력 배치가 확연히 달라지므로 정확한 사전 실측과 조건 명시가 필수적입니다.
+                    </p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>2. 2027년 기준 아산원룸이사 종류별 표준 요금표 및 작업 차이점</h2>
+                <p>
+                    원룸이사 준비 시 소비자가 가장 먼저 직면하는 고민은 바로 작업 방식의 선택입니다. 수많은 이사짐센터와 화물 플랫폼에서 제공하는 상품 등급표는 크게 네 가지로 나뉘며, 각 종류에 따라 평균 금액 차이가 뚜렷하게 나타납니다.
+                </p>
+                <p>
+                    가장 기본이 되는 단순 용달 요금제는 기사님이 1톤 트럭으로 화물을 실어 목적지 도로변까지 이동만 책임지는 무옵션 형태입니다. 짐 싸기와 건물 내부 상하차를 본인이 직접 수행해야 하므로 짐이 옷가지 몇 박스 수준인 미니멀리스트에게 제일 저렴한곳으로 통합니다. 반면 일반이사는 사전에 박스를 대여하거나 구매하여 본인이 짐을 포장해 두면 기사님이 함께 들고 운반해 주는 절충형이며, 반포장이사는 이사 당일 기사님이 전용 자재를 지참하여 포장부터 운반까지 지원하는 가장 인기 있는 표준 요금제입니다.
+                </p>
+
+                <h3>아산 지역 원룸이사 표준 작업 등급표 및 예상 가격표 (1톤 차량 기준)</h3>
+                <div class="table-wrap">
+                    <table class="info-table">
+                        <thead>
+                            <tr>
+                                <th>작업 종류 분류</th>
+                                <th>포장 주체</th>
+                                <th>운반 및 상하차</th>
+                                <th>도착지 짐 정리</th>
+                                <th>2027 평균 예상 요금</th>
+                                <th>추천 대상 및 선호도</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1톤 용달 단순 운송</td>
+                                <td>고객 100퍼센트 완포장</td>
+                                <td>고객 직접 (기사 차량 대기)</td>
+                                <td>고객 직접 정리</td>
+                                <td>약 5만 원에서 7만 원 선</td>
+                                <td>가전가구 없는 미니멀 1인</td>
+                            </tr>
+                            <tr>
+                                <td>원룸 일반이사</td>
+                                <td>고객이 박스 포장 완료</td>
+                                <td>기사님과 고객 공동 운반</td>
+                                <td>고객 직접 정리</td>
+                                <td>약 12만 원에서 18만 원 대</td>
+                                <td>체력 좋은 남성 또는 자취생</td>
+                            </tr>
+                            <tr>
+                                <td>원룸 반포장이사</td>
+                                <td>기사님과 공동 자재 포장</td>
+                                <td>기사님 주도 전문 운반</td>
+                                <td>큰 가전가구 배치 (잔짐 고객)</td>
+                                <td>약 19만 원에서 28만 원 선</td>
+                                <td>가장 많은 오너 선택 가성비</td>
+                            </tr>
+                            <tr>
+                                <td>원룸 완전 포장이사</td>
+                                <td>전문 패커 풀 포장</td>
+                                <td>전문 인력 전담 운반</td>
+                                <td>주방 식기 및 수납 풀 정리</td>
+                                <td>약 32만 원에서 45만 원 선</td>
+                                <td>시간 부족한 직장인 및 워킹맘</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>3. 주거 평형대 및 아산 권역별 예상 이사비용 산출 지표</h2>
+                <p>
+                    원룸이라 부르더라도 실평수 5평 남짓한 고시원형 원룸과 실평수 15평 이상의 거실 분리형 투룸은 화물 적재 부피에서 세 배 이상의 차이가 발생합니다. 1톤 탑차 한 대로 마감되느냐, 차량 두 대 또는 2.5톤 단독 차량이 동원되어야 하느냐에 따라 총 견적 비용은 큰 폭으로 요동칩니다.
+                </p>
+                <p>
+                    아산 권역 내 이동 거리 역시 요금 산정의 중요한 축입니다. 온천동 구도심에서 용화동, 모종동으로 이어지는 시내 단거리 구간은 기본요율이 적용되지만, 탕정 신도시에서 둔포 아산테크노밸리까지 약 25킬로미터 이상의 외곽 이동이 발생하거나 신창면 순천향대 후문 빌라에서 배방역 역세권 오피스텔로 이동할 때는 장거리 운행에 따른 주유비 및 공차 회송비가 소폭 가산됩니다.
+                </p>
+
+                <div class="bar-chart-card">
+                    <div class="bar-chart-title">평형대별 평균 이사비용 및 인력 구성 통계 (반포장이사 기준)</div>
+                    
+                    <div class="bar-group">
+                        <div class="bar-label">5평 이하 초소형 (1톤 반차)</div>
+                        <div class="bar-track">
+                            <div class="bar-fill c1" style="width: 42%;"></div>
+                            <span class="bar-text">약 14만 원에서 18만 원</span>
+                        </div>
+                    </div>
+
+                    <div class="bar-group">
+                        <div class="bar-label">7평~9평 표준 원룸 (1톤 1대)</div>
+                        <div class="bar-track">
+                            <div class="bar-fill c2" style="width: 60%;"></div>
+                            <span class="bar-text">약 20만 원에서 25만 원</span>
+                        </div>
+                    </div>
+
+                    <div class="bar-group">
+                        <div class="bar-label">10평~13평 분리형 1.5룸</div>
+                        <div class="bar-track">
+                            <div class="bar-fill c3" style="width: 76%;"></div>
+                            <span class="bar-text">약 26만 원에서 33만 원</span>
+                        </div>
+                    </div>
+
+                    <div class="bar-group">
+                        <div class="bar-label">15평 이상 투룸 및 오피스텔</div>
+                        <div class="bar-track">
+                            <div class="bar-fill c4" style="width: 95%;"></div>
+                            <span class="bar-text">약 38만 원에서 48만 원 수준</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p>
+                    특히 탕정 한들물빛도시나 배방 장재리 일대의 신축 대단지 오피스텔은 지하 주차장 층고 제한(보통 2.3미터 이하)이 엄격하여 일반 탑차가 진입하지 못하는 돌발 상황이 발생하기도 합니다. 이 경우 지하 진입이 가능한 저상 탑차를 보유한 업체를 섭외해야 하며, 만약 지상에서 하차하여 대차로 길게 운반해야 할 경우 동선 지연에 따른 추가 수고비가 청구될 수 있으므로 현장 여건을 사전 고지하는 지혜가 필요합니다.
+                </p>
+            </section>
+
+            <section class="content-section">
+                <h2>4. 사다리차, 엘리베이터 이용료 및 현장 돌발 부대비용 완벽 분석</h2>
+                <p>
+                    초보 자취생들이 이사를 마친 후 내돈내산 영수증을 보고 당황하는 가장 큰 원인은 최초 견적 단계에서 누락된 부대비용 때문입니다. 이사 당일 마주하게 되는 고정 지출 항목들의 원리를 파악해 두면 불필요한 위약금이나 분쟁을 원천 봉쇄할 수 있습니다.
+                </p>
+                <p>
+                    첫 번째는 승강기 사용료와 사다리차 요금입니다. 배방자이나 탕정 푸르지오 등 대단지 아파트 및 대형 오피스텔은 관리사무소에 전용 승강기 예약 절차를 밟아야 하며, 아파트별로 적게는 3만 원에서 많게는 10만 원 안팎의 엘리베이터 이용 수수료를 현금 또는 계좌이체로 납부해야 합니다. 반면 계단 폭이 좁은 용화동이나 권곡동 다세대 주택 3층 이상의 환경에서는 사다리차가 불가피한데, 원룸 기준 기본 출동료는 보통 10만 원에서 12만 원 선으로 형성되어 있습니다.
+                </p>
+
+                <h3>원룸 이사 시 체크해야 할 세부 부대비용 및 옵션 요금 일람</h3>
+                <div class="table-wrap">
+                    <table class="info-table">
+                        <thead>
+                            <tr>
+                                <th>구분 항목</th>
+                                <th>발생 조건 및 내역</th>
+                                <th>2027 평균 소요 예산</th>
+                                <th>비용 절감 꿀팁</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>사다리차 이용료</td>
+                                <td>2층에서 5층 이하 원룸 소형 화물</td>
+                                <td>약 10만 원에서 13만 원</td>
+                                <td>엘리베이터가 있다면 승강기 예약이 유리</td>
+                            </tr>
+                            <tr>
+                                <td>승강기 사용료</td>
+                                <td>관리실 규정에 따른 고층 건물 이동</td>
+                                <td>약 3만 원에서 8만 원</td>
+                                <td>이사 최소 일주일 전 관리사무소 접수</td>
+                            </tr>
+                            <tr>
+                                <td>에어컨 기본 철거</td>
+                                <td>벽걸이 원룸 에어컨 냉매 회수 및 해체</td>
+                                <td>약 3만 원에서 5만 원</td>
+                                <td>이전 설치는 전문 에어컨 기사 별도 섭외</td>
+                            </tr>
+                            <tr>
+                                <td>대형 가전 분해조립</td>
+                                <td>침대 프레임, 대형 양문형 냉장고</td>
+                                <td>약 4만 원에서 7만 원</td>
+                                <td>단순 프레임은 전동 드라이버로 사전 분해</td>
+                            </tr>
+                            <tr>
+                                <td>대형 폐기물 배출</td>
+                                <td>낡은 매트리스, 서랍장, 의자 등</td>
+                                <td>품목당 3천 원에서 1만 5천 원</td>
+                                <td>아산시 대형폐기물 인터넷 신고 필증 부착</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>5. 인터넷 통신사 이전, 신규 약정 결합 및 현금지원 혜택 비교</h2>
+                <p>
+                    원룸 이사를 진행할 때 이삿짐 운송만큼 중요한 영역이 바로 인터넷 및 IPTV 통신망 정리입니다. 기존에 이용하던 통신사 상품을 단순히 이전 설치할 것인지, 아니면 위약금을 감수하고 신규 가입으로 갈아탈 것인지에 따라 수십만 원의 가계 지출 차이가 발생합니다.
+                </p>
+                <p>
+                    현재 약정 기간이 1년(12개월) 이상 남아 있는 상태라면 이전 설치를 신청하는 것이 위약금을 방지하는 가장 안전한 방법입니다. 통상 통신사 고객센터를 통해 신청하면 3만 원 안팎의 출동 설치비로 이전이 완료됩니다. 그러나 기존 약정이 만료되었거나 무약정 요금제로 이용 중이었다면, 이사 시점에 맞추어 타 통신사로 신규 가입을 진행하는 것이 압도적으로 유리합니다.
+                </p>
+                <p>
+                    최근 온라인 인터넷 가입 성지 좌표나 다이렉트 비교 사이트를 통하면 법정 경품고시제 범위 내에서 최대 40만 원에서 48만 원에 달하는 현금지원 및 모바일 신세계, 롯데 백화점 상품권 증정 프로모션 혜택을 챙길 수 있습니다. 이를 활용하면 원룸이사 전 과정에서 지출된 실제 비용 상당 부분을 상쇄시키는 놀라운 재테크 효과를 누릴 수 있습니다.
+                </p>
+            </section>
+
+            <section class="content-section">
+                <h2>6. 커뮤니티 오너들의 실전 내돈내산 후기 및 분쟁 방지 계약 수칙</h2>
+                <p>
+                    디시인사이드 부동산 갤러리나 자취 갤러리, 보배드림 생활 정보방, 그리고 펨코(에펨코리아) 자취 게시판 등에 올라온 수많은 내돈내산 이사 후기를 종합해 보면 공통적으로 강조하는 안전 수칙이 있습니다.
+                </p>
+                <p>
+                    첫째, 구두 계약은 절대 금물이며 반드시 모바일이나 서면 견적서를 수령해야 합니다. 일부 무허가 용달 기사의 경우 전화 통화로 최저가 10만 원을 불러놓고, 당일 현장에 도착해 짐이 생각보다 많다거나 엘리베이터 계단 거리가 멀다는 이유로 10만 원 이상의 현장 추가금을 요구하며 배짱을 부리는 사례가 빈번하기 때문입니다.
+                </p>
+                <p>
+                    둘째, 계약금 지급과 환불 및 위약금 규정의 확인입니다. 통상 계약금은 전체 요금의 10퍼센트 내외로 입금하며, 공정거래위원회 표준약관상 이사일 2일 전까지 취소 시 계약금 전액 환불이 가능합니다. 반대로 업체의 귀책사유로 당일 파행이 일어날 경우 계약금의 배액 배상을 요구할 수 있는 법적 근거가 마련되어 있습니다.
+                </p>
+                <p>
+                    셋째, 귀중품과 파손 위험품의 개별 관리입니다. 노트북, 귀금속, 태블릿, 중요 서류 등은 이사 차량에 싣지 않고 개인 백팩이나 자가용으로 별도 이동해야 하며, 냉장고나 고가의 가구는 상차 전 전후면 사진을 촬영해 두어야만 추후 긁힘이나 파손 발생 시 적재물 배상책임보험을 통해 매끄러운 보상을 수령할 수 있습니다.
+                </p>
+            </section>
+
+            <section class="content-section">
+                <h2>7. 생성형 AI 도구와 모바일 앱을 활용한 최저가 성지 발굴 5단계</h2>
+                <p>
+                    과거에는 전봇대에 붙은 스티커나 부동산 중개업소의 소개에 의존하여 이사짐센터를 찾았지만, 2027년 현재는 첨단 테크놀로지를 활용하여 가장 합리적인 성지 업체를 선별하는 스마트한 방식이 대세로 자리 잡았습니다.
+                </p>
+                <p>
+                    첫 단계로는 오픈AI의 챗지피티(ChatGPT)나 구글의 제미나이(Gemini), 네이버 대화형 AI 검색 서비스를 활용하여 본인의 원룸 구조와 짐 목록(매트리스 규격, 행거 수량 등)을 입력하고 표준 이사 방식과 체크리스트를 도출하는 것입니다. AI는 불필요한 옵션을 걸러내고 가장 적합한 트림(용달 대여 vs 반포장)을 객관적으로 제시해 줍니다.
+                </p>
+                <p>
+                    두 번째는 토스 앱이나 카카오페이 등 핀테크 플랫폼 내 이사 제휴 탭, 그리고 다이렉트 이사 비교 어플을 통해 비대면으로 견적 3곳 이상을 수집하는 것입니다. 세 번째로는 카카오톡 알림톡 및 유튜브 현장 브이로그, 인스타그램 리뷰를 교차 검증하여 해당 업체의 친절도와 피드백을 확인합니다.
+                </p>
+                <p>
+                    네 번째는 정식 화물자동차 운송주선사업 허가증 보유 여부를 확인하고 피해보상 이행보증보험 가입 여부를 체크합니다. 마지막 다섯 번째로 최종 조율된 확정 견적서를 파일로 보관함으로써 군더더기 없는 최저가 안심 이사를 완성할 수 있습니다.
+                </p>
+            </section>
+
+            <!-- 공인 외부 레퍼런스 섹션 -->
+            <div class="official-links">
+                <div class="official-title">신뢰도 및 공공 검증을 위한 공식 참고처</div>
+                <ul class="official-list">
+                    <li>
+                        <a href="https://www.asan.go.kr" target="_blank" rel="noopener">아산시청 공식 누리집</a>
+                        - 전입신고 민원, 대형 폐기물 온라인 배출 신청 및 관내 소형 폐기물 스티커 발부 지침
+                    </li>
+                    <li>
+                        <a href="https://www.nlic.go.kr" target="_blank" rel="noopener">국가물류통합정보센터 (국토교통부)</a>
+                        - 공인 화물자동차 운송가맹사업자 및 안심 화물 운송 주선 면허 법률 규정 확인
+                    </li>
+                    <li>
+                        <a href="https://namu.wiki/w/%EC%9D%B4%EC%82%AC" target="_blank" rel="noopener">나무위키 백과사전 이사 가이드</a>
+                        - 대한민국 원룸, 포장, 반포장 이사의 역사적 변천사와 포괄적 작업 매뉴얼
+                    </li>
+                </ul>
+            </div>
+
+            <!-- FAQ 섹션 -->
+            <div class="faq-block">
+                <h2>자주 질문하시는 핵심 궁금증 FAQ</h2>
+
+                <div class="faq-box">
+                    <div class="faq-q" onclick="handleFaqToggle(this)">
+                        <span>Q. 원룸 이사 당일 비가 오거나 눈이 오면 이사가 가능한가요?</span>
+                        <span class="faq-toggle-tag">답변 확인</span>
+                    </div>
+                    <div class="faq-a">
+                        네, 가능합니다. 아산 지역의 전문 이사업체들은 대부분 호루(방수 천막)가 장착된 탑차나 윙바디 차량을 보유하고 있어 악천후 속에서도 짐이 젖지 않도록 완벽한 방수 이동이 가능합니다. 다만 빗길 서행 운행과 미끄럼 방지를 위한 포장 시간 증대로 평소보다 전체 작업 시간이 30분에서 1시간가량 지연될 수 있습니다.
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-q" onclick="handleFaqToggle(this)">
+                        <span>Q. 아파트나 오피스텔 장기수선충당금은 어떻게 환불받나요?</span>
+                        <span class="faq-toggle-tag">답변 확인</span>
+                    </div>
+                    <div class="faq-a">
+                        장기수선충당금은 원래 집주인이 부담해야 하는 항목이지만 매월 관리비 고지서에 합산 청구되어 세입자가 대납해 온 금액입니다. 따라서 이사 당일 관리사무소에 방문하여 입주일로부터 퇴거일까지의 납부확인서를 발급받은 뒤, 임대인(집주인)에게 보증금을 돌려받을 때 해당 금액만큼 합산하여 계좌로 반환받으시면 됩니다.
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-q" onclick="handleFaqToggle(this)">
+                        <span>Q. 원룸 반포장이사 진행 시 잔짐 정리는 어디까지 해주시나요?</span>
+                        <span class="faq-toggle-tag">답변 확인</span>
+                    </div>
+                    <div class="faq-a">
+                        반포장이사는 출발지에서는 기사님이 포장 자재를 가져와 잔짐과 가전, 가구를 전량 안전하게 패킹해 드립니다. 도착지에서는 침대, 책상, 세탁기 등 덩치가 큰 가구의 위치를 잡아 드리고 박스에 담긴 잔짐들을 바닥이나 선반 위에 풀어드리는 단계까지 진행됩니다. 옷가지의 세부 옷걸이 수납이나 주방 그릇 정리 등 미세한 배열은 고객 본인이 원하는 취향대로 진행하는 구조입니다.
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-q" onclick="handleFaqToggle(this)">
+                        <span>Q. 이사 도중 벽지 훼손이나 바닥 긁힘이 발생하면 어떻게 보상받나요?</span>
+                        <span class="faq-toggle-tag">답변 확인</span>
+                    </div>
+                    <div class="faq-a">
+                        하자 발견 즉시 작업을 멈추고 현장 기사님과 함께 파손 부위를 확인한 뒤 스마트폰으로 다각도 사진과 영상을 촬영해 두어야 합니다. 정식 허가받은 전문 이사짐센터는 적재물 배상책임보험 및 영업배상보험에 가입되어 있으므로, 견적서 상의 대표 전화번호로 사고 접수를 신청하여 보험 처리 또는 수리 보수 비용 청구를 다이렉트로 집행받으실 수 있습니다.
+                    </div>
+                </div>
+            </div>
+
+        </article>
     </main>
-  </body>
-</html>
+
+
+  
+
+    <!-- 실시간 견적 및 아코디언 스크립트 -->
+    <script>
+        // FAQ 아코디언 제어 스크립트
+        function handleFaqToggle(element) {
+            const answer = element.nextElementSibling;
+            const tag = element.querySelector('.faq-toggle-tag');
+            
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+                tag.textContent = "답변 확인";
+                tag.style.backgroundColor = "#E2E8F0";
+                tag.style.color = "#475569";
+            } else {
+                answer.style.display = "block";
+                tag.textContent = "답변 닫기";
+                tag.style.backgroundColor = "#0284C7";
+                tag.style.color = "#FFFFFF";
+            }
+        }
+
+        // 실시간 견적 산출 로직
+        function handleMovingCalculation(event) {
+            event.preventDefault();
+
+            const name = document.getElementById('customerName').value.trim();
+            const contact = document.getElementById('customerContact').value.trim();
+            const startArea = document.getElementById('startArea').value;
+            const housing = document.getElementById('housingType').value;
+            const moveType = document.getElementById('moveType').value;
+            const startFloor = document.getElementById('startFloor').value;
+            const destFloor = document.getElementById('destFloor').value;
+            const dateOpt = document.getElementById('moveDateOption').value;
+
+            if (!name || !contact || !startArea || !housing || !moveType) {
+                alert("필수 입력 항목을 빠짐없이 선택해 주셔야 정밀 알고리즘이 연산됩니다.");
+                return false;
+            }
+
+            // 1. 기본 트림별 운임 책정 (2027 표준)
+            let baseRate = 0;
+            let moveTypeName = "";
+
+            if (moveType === "용달단순") {
+                baseRate = 60000;
+                moveTypeName = "1톤 단순 차량 용달 운송";
+            } else if (moveType === "일반이사") {
+                baseRate = 140000;
+                moveTypeName = "원룸 표준 일반이사 (동행 상하차)";
+            } else if (moveType === "반포장이사") {
+                baseRate = 220000;
+                moveTypeName = "원룸 실속 반포장이사 (포장 대행)";
+            } else if (moveType === "포장이사") {
+                baseRate = 350000;
+                moveTypeName = "원룸 프리미엄 완전 포장이사";
+            }
+
+            // 2. 평형 및 주거 형태 가중치
+            let houseWeight = 1.0;
+            if (housing === "원룸") houseWeight = 0.9;
+            else if (housing === "일반원룸") houseWeight = 1.0;
+            else if (housing === "분리형원룸") houseWeight = 1.25;
+            else if (housing === "투룸") houseWeight = 1.6;
+            else if (housing === "오피스텔") houseWeight = 1.15;
+            else if (housing === "소형단독") houseWeight = 1.2;
+            else if (housing === "소형사무실") houseWeight = 1.4;
+
+            let adjustedBase = baseRate * houseWeight;
+
+            // 3. 층수 및 환경 가산금 연산
+            let envExtra = 0;
+            // 출발지 층수
+            if (startFloor === "2") envExtra += 20000;
+            else if (startFloor === "3") envExtra += 35000;
+            else if (startFloor === "4") envExtra += 50000;
+            else if (startFloor === "ladder") envExtra += 110000; // 사다리차
+
+            // 도착지 층수
+            if (destFloor === "2") envExtra += 20000;
+            else if (destFloor === "3") envExtra += 35000;
+            else if (destFloor === "4") envExtra += 50000;
+            else if (destFloor === "ladder") envExtra += 110000; // 사다리차
+
+            // 일정에 따른 변동률
+            if (dateOpt === "weekend") envExtra += 30000;
+            else if (dateOpt === "luckyDay") envExtra += 70000;
+            else if (dateOpt === "monthEnd") envExtra += 20000;
+
+            // 4. 부가 옵션 설치비
+            let optionExtra = 0;
+            if (document.getElementById('optWasher').checked) optionExtra += 30000;
+            if (document.getElementById('optBed').checked) optionExtra += 40000;
+            if (document.getElementById('optCloset').checked) optionExtra += 50000;
+            if (document.getElementById('optDoubleWorker').checked) optionExtra += 120000;
+
+            // 단순 용달일 경우 계단 및 환경 가산 최소화 보정
+            if (moveType === "용달단순") {
+                envExtra = (startFloor === "ladder" || destFloor === "ladder") ? 110000 : 0;
+            }
+
+            const finalCalculatedTotal = Math.round(adjustedBase + envExtra + optionExtra);
+
+            // 데이터 바인딩
+            document.getElementById('outName').textContent = name;
+            document.getElementById('outMoveType').textContent = moveTypeName;
+            document.getElementById('outBaseCost').textContent = Math.round(adjustedBase).toLocaleString() + "원";
+            document.getElementById('outEnvCost').textContent = Math.round(envExtra).toLocaleString() + "원";
+            document.getElementById('outOptCost').textContent = Math.round(optionExtra).toLocaleString() + "원";
+            document.getElementById('outTotalCost').textContent = finalCalculatedTotal.toLocaleString() + "원 (예상 범위)";
+
+            // 결과창 표시 및 스크롤
+            const resultsBox = document.getElementById('calcResults');
+            resultsBox.style.display = 'block';
+            resultsBox.scrollIntoView({ behavior: 'smooth' });
+
+            return false;
+        }
+    </script>
+  
